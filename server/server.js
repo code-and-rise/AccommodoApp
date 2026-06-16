@@ -15,6 +15,10 @@ app.use('/api', (req, res, next) => {
    next();
 });
 
+app.get("/", (req, res) => {
+   res.send("Backend is working");
+});
+
 app.use('/api/data', dataRouter);
 app.use('/api/register', registerRouter);
 app.use('/api/login', loginRouter);
