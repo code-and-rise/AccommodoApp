@@ -4,9 +4,9 @@ A full-stack accommodation booking platform that allows guests to search and res
 
 ## Tech stack
 
-- React.js = frontend
-- Node.js (Express) = backend
-- PostgreSQL = database
+- React
+- Node.js (Express)
+- PostgreSQL
 
 ## Project overview
 
